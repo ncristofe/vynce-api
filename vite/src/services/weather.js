@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "SUA_CHAVE_AQUI"; // substitua pela chave da OpenWeather
+const API_KEY = "773d705eeacf613dd35f6833a910acfc"; 
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 export async function getWeather(city) {
