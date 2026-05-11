@@ -45,9 +45,9 @@ export default function Home() {
         <FavoritesList favorites={favorites} onSelect={selectFavorite} />
       </div>
 
-      {/* Configurações */}
-      <div className="mt-6">
-        <Settings theme={theme} toggleTheme={toggleTheme} />
+        {/* Configurações */}
+        <div className="mt-6">
+            <Settings theme={theme} toggleTheme={toggleTheme} />
       </div>
     </div>
   );
