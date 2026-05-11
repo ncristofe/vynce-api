@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import Favorites from "../pages/Favorites";
 import Settings from "../pages/Settings";
 
+
 export default function AppRoutes() {
   return (
     <Router>
